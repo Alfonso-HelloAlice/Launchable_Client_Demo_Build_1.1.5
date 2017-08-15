@@ -69,6 +69,16 @@ public class phoneEmailWeb : MonoBehaviour {
 	{
 		Application.OpenURL("tel://4079063034");
 	}
+
+	public void Phone_Jasonjazzar()
+	{
+		Application.OpenURL("tel://7047289710");
+	}
+
+	public void Phone_Katrelkelly()
+	{
+		Application.OpenURL("tel://2152800899");
+	}
 		
 	/* ------------------------------------------------------------------------- */
 //	 open email 
@@ -111,8 +121,31 @@ public class phoneEmailWeb : MonoBehaviour {
 		string body = MyEscapeURL(" ");
 		Application.OpenURL("mailto:" + email + "?subject=" + subject + "&body=" + body);
 	}
-	
-	
+
+	public void Email_Jea()
+	{
+		string email = "tojustjea@gmail.com";
+		string subject = MyEscapeURL(" ");
+		string body = MyEscapeURL(" ");
+		Application.OpenURL("mailto:" + email + "?subject=" + subject + "&body=" + body);
+	}
+
+	public void Email_Jasonjazzar()
+	{
+		string email = "jason@bridg8.com";
+		string subject = MyEscapeURL(" ");
+		string body = MyEscapeURL(" ");
+		Application.OpenURL("mailto:" + email + "?subject=" + subject + "&body=" + body);
+	}
+
+	public void Email_Katrelkelly()
+	{
+		string email = "kelly@abrambs.com";
+		string subject = MyEscapeURL(" ");
+		string body = MyEscapeURL(" ");
+		Application.OpenURL("mailto:" + email + "?subject=" + subject + "&body=" + body);
+	}
+		
 	string MyEscapeURL (string url)
 	{
 		return WWW.EscapeURL(url).Replace("+","%20");

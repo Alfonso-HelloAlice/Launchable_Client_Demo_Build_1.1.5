@@ -104,6 +104,7 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\billing\an_billing.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\AN_VersionInfo.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-plus.jar.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-gcm.jar.txt" />
@@ -129,6 +130,7 @@
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\libs\android-support-v4.txt" />
      <None Include="Assets\Plugins\Android\AN_Res\res\xml\file_paths.xml" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\an_googleplay.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\GMA_VersionInfo.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GestureRecognizer.mm.txt" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Media.mm.txt" />
@@ -146,7 +148,6 @@
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\play-services-fitness.jar.txt" />
      <None Include="Assets\Plugins\StansAssets\Modules\ManifestManager\default.xml" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_SocialGate.mm.txt" />
-     <None Include="Assets\Plugins\StansAssets\Support\Versions\UM_VersionInfo.txt" />
      <None Include="Assets\Plugins\StansAssets\Modules\AndroidNative\Documentation\AN_VersionNotes.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics.jar.txt" />
      <None Include="Assets\Plugins\Android\VuforiaMediaSource\build.xml" />
@@ -183,8 +184,6 @@
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_ReplayKit.mm.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.h.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-basement.txt" />
-     <None Include="Assets\Plugins\StansAssets\Support\Versions\AN_VersionInfo.txt" />
-     <None Include="Assets\Plugins\StansAssets\Support\Versions\GMA_VersionInfo.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\firebase\firebase-iid.txt" />
      <None Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Documentation\ReadMe.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-basement.jar.txt" />
@@ -202,8 +201,10 @@
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-appinvite.jar.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-safetynet.txt" />
      <None Include="Assets\Plugins\StansAssets\Modules\IOSNative\Documentation\ReadMe.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\ISN_VersionInfo.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_FilePicker.mm.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_CloudKit.mm.txt" />
+     <None Include="Assets\StreamingAssets\Vuforia\Launchable_Local_Storage.xml" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-iid.jar.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-ads-lite.jar.txt" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
@@ -221,18 +222,16 @@
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\AN_Res\res\values\ids.xml" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_UserNotifications.mm.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-auth.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\MSP_VersionInfo.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\mobile-native-popups.jar.txt" />
      <None Include="Assets\Plugins\StansAssets\Bundles\UltimateMobile\Documentation\ReadMe.txt" />
-     <None Include="Assets\StreamingAssets\Vuforia\Launchable_Local_Storage.xml" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GameCenter.mm.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-safetynet.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\UM_VersionInfo.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\google_play\play-services-analytics-impl.jar.txt" />
      <None Include="Assets\Plugins\iOS\VuforiaMediaSource\README.txt" />
-     <None Include="Assets\Plugins\StansAssets\Support\Versions\ISN_VersionInfo.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Plugins\WP8\GoogleAds.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
-     <None Include="Assets\Plugins\StansAssets\Support\Versions\MSP_VersionInfo.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_UserNotifications.h.txt" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\fitness\an_fitness.jar.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
